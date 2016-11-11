@@ -1,0 +1,79 @@
+created: 20161111130830885
+modified: 20161111132628947
+tags: $:/tags/AboveStory
+title: New Tiddler
+type: text/vnd.tiddlywiki
+
+<div id="header-wrapper" style="height: 152px;height: 152px;position: absolute;top: 0;left: 0;width: 100%;z-index: 500;">
+<div id="header-container" class="header-container has_sticky header-not-center" style="background:#fff;">
+<div class="container" style="background:#fff;">
+	<header id="header" class="header-3">
+			<div class="row-fluid">				
+			<div class="span3">
+				<div id="logo">
+					{{||$:/core/ui/Buttons/edit}}{{||$:/core/ui/Buttons/close}}
+				</div><!-- #logo -->
+				
+							</div><!-- .span3 -->
+			<div class="span9">
+				<div class="right-container">
+						<nav id="mainnav">
+							<a href="#?demo=1" class="nav-toggle"><i class="icon-align-justify"></i>Toggle Menu</a>
+							<div class="menu"><ul id="menu-primary-menu" class="menu"><li id="menu-item-1943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-1943 has-child"><a href="http://blank.withemes.com?demo=1">Demo</a>
+<ul class="sub-menu">
+	<li id="menu-item-1944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1944"><a href="http://blank.withemes.com/?demo=1">Standard</a></li>
+	<li id="menu-item-1945" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1945"><a href="http://blank.withemes.com/?demo=2">Visible Sidebar</a></li>
+	<li id="menu-item-1946" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1946"><a href="http://blank.withemes.com/?demo=3">Boxed Layout</a></li>
+	<li id="menu-item-1947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1947"><a href="http://blank.withemes.com/?demo=4">Centered Header</a></li>
+	<li id="menu-item-1948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1948"><a href="http://blank.withemes.com/?demo=5">Sticky Header</a></li>
+	<li id="menu-item-1949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1949"><a href="http://blank.withemes.com/?demo=6">Other Font</a></li>
+	<li id="menu-item-1950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1950"><a href="http://blank.withemes.com/?demo=7">No sidebar</a></li>
+</ul>
+</li>
+<li id="menu-item-1951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1951"><a href="http://blank.withemes.com/about/?demo=1">About</a></li>
+<li id="menu-item-1940" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1940 has-child"><a href="#?demo=1">Pages</a>
+<ul class="sub-menu">
+	<li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1956"><a href="http://blank.withemes.com/features/?demo=1">Features</a></li>
+	<li id="menu-item-1953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1953"><a href="http://blank.withemes.com/shortcodes/?demo=1">Shortcodes</a></li>
+	<li id="menu-item-1952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1952"><a href="http://blank.withemes.com/typography/?demo=1">Typography</a></li>
+	<li id="menu-item-1942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1942"><a href="http://blank.withemes.com/contact/?demo=1">Contact</a></li>
+	<li id="menu-item-1939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1939"><a target="_blank" href="http://themeforest.net/item/blank-elegant-and-minimalist-wordpress-blog/5134048?ref=withemes&amp;demo=1">Purchase</a></li>
+</ul>
+</li>
+<li id="menu-item-1934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1934 has-child"><a href="#?demo=1">Categories</a>
+<ul class="sub-menu">
+	<li id="menu-item-1935" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1935"><a href="http://blank.withemes.com/category/wordpress/?demo=1">WordPress</a></li>
+	<li id="menu-item-1936" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1936"><a href="http://blank.withemes.com/category/design/?demo=1">Design</a></li>
+	<li id="menu-item-1937" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1937"><a href="http://blank.withemes.com/category/sport/?demo=1">Sport</a></li>
+	<li id="menu-item-1938" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1938"><a href="http://blank.withemes.com/category/world/?demo=1">World</a></li>
+</ul>
+</li>
+<li id="menu-item-1954" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1954 has-child"><a href="http://blank.withemes.com/portfolio-3-columns/?demo=1">Portfolio</a>
+<ul class="sub-menu">
+	<li id="menu-item-1959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1959"><a href="http://blank.withemes.com/portfolio-2-columns/?demo=1">2 columns</a></li>
+	<li id="menu-item-1941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1941"><a href="http://blank.withemes.com/portfolio-3-columns/?demo=1">3 columns</a></li>
+	<li id="menu-item-1958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1958"><a href="http://blank.withemes.com/portfolio-4-columns/?demo=1">4 columns</a></li>
+	<li id="menu-item-1957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1957"><a href="http://blank.withemes.com/masonry-style/?demo=1">Masonry Style</a></li>
+	<li id="menu-item-1955" class="menu-item menu-item-type-post_type menu-item-object-portfolio current-menu-item menu-item-1955"><a href="http://blank.withemes.com/portfolio_item/seacula-quarta-decima-et/?demo=1">Single Portfolio</a></li>
+</ul>
+</li>
+</ul></div>						</nav>
+						
+														<div class="social">
+		<ul>
+											<li><a href="#?demo=1" target="_blank" rel="alternate" original-title="Facebook"><i class="icon-facebook"></i></a></li>
+															<li><a href="#?demo=1" target="_blank" rel="alternate" original-title="Twitter"><i class="icon-twitter"></i></a></li>
+															<li><a href="#?demo=1" target="_blank" rel="alternate" original-title="Google+"><i class="icon-google-plus"></i></a></li>
+																																																																																																																																																																																																																																																																																																														
+			
+										
+		</ul>
+	</div><!-- .social -->
+										</div><!-- .right-container -->
+			</div><!-- .span9 -->
+		</div><!-- .row-fluid -->		
+		</header>
+	<div id="header-line" class="type-line-arrow"></div>
+</div><!-- .container -->
+</div><!-- #header-container -->
+</div>

@@ -1,0 +1,455 @@
+created: 20161111130639166
+modified: 20161111130708833
+tags: $:/tags/Stylesheet
+title: Stylesheet4
+type: text/vnd.tiddlywiki
+
+/* ------------------------------------------------------- */
+/* Columns
+/* ------------------------------------------------------- */
+.column {
+    margin-bottom: 20px;
+    margin-right: 4%;
+    position: relative;
+    float: left;
+    display: block;
+    padding: 0 !important
+    }
+
+.column-last {
+    margin-right: 0 !important
+    }
+
+.column-1-2 {
+    width: 48%
+    }
+
+.column-1-3 {
+    width: 30.6666666667%
+    }
+
+.column-2-3 {
+    width: 65.3333333333%
+    }
+
+.column-1-4 {
+    width: 22%
+    }
+
+.column-3-4 {
+    width: 74%
+    }
+
+.column-1-5 {
+    width: 16.8%
+    }
+
+.column-2-5 {
+    width: 37.6%
+    }
+
+.column-3-5 {
+    width: 58.4%
+    }
+
+.column-4-5 {
+    width: 79.2%
+    }
+
+.column-1-6 {
+    width: 13.3333333333%
+    }
+
+.column-5-6 {
+    width: 82.6666666667%
+    }
+
+/* ------------------------------------------------------- */
+/* Gmap
+/* ------------------------------------------------------- */
+.wi-gmap {
+    width: 100%;
+    height: 400px;
+    margin: 0 0 30px;
+	max-width:100%;
+	min-width:100%;
+    }
+
+.wi-gmap img {
+    max-width: none
+    }
+
+.gmap-info {
+    max-width: 250px
+    }
+
+/* ------------------------------------------------------- */
+/* Progress
+/* ------------------------------------------------------- */
+.easyPieChart {
+    position: relative;
+    text-align: center;
+    margin: 0 auto
+    }
+
+.easyPieChart canvas {
+    position: absolute;
+    top: 0;
+    left: 0
+    }
+
+.wi-progress-container {
+    margin: 20px auto;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+    }
+
+html.no-js .wi-progress-container {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+    }
+
+.wi-progress {
+    text-align: center
+    }
+
+.wi-progress span {
+    font-size: 34px;
+    color: #000;
+    margin-left: 15px
+    }
+
+.wi-progress sup {
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    color: #777;
+    font-weight: bold;
+    text-align: center
+    }
+
+.wi-progress-container .progress-title {
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Open Sans" sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #666;
+	font-weight:700;
+    }
+	
+/* ------------------------------------------------------- */
+/* Icon
+/* ------------------------------------------------------- */
+.iconsc {
+	display:inline-block;
+	font-size:16px;
+	margin:0 10px 10px 0;
+	border:1px solid #999;
+	text-align:center;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	color:#333;
+	-moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out
+}
+.iconsc:hover {
+	border-color:#555;
+}
+.iconsc a,
+.iconsc a:hover {
+	text-decoration:none;
+	color:#333;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.wi-content .iconsc a,
+.wi-content .iconsc a:hover {
+	border-bottom:none;
+	}
+
+/* ------------------------------------------------------- */
+/* Dropcap aoe letters
+/* ------------------------------------------------------- */
+.wi-dropcap {
+	width:110px;
+	height:110px;
+	vertical-align:baseline;
+	display:block;
+	float:left;
+	margin:6px 14px 6px 0;
+}
+
+/* ------------------------------------------------------- */
+/* Spacer, Hr
+/* ------------------------------------------------------- */
+.spacer {
+	margin:30px 0 60px;
+}
+.hr {
+	display:block;
+	margin:10px 0 50px;
+	position:relative;
+}
+.hr:after {
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-80px;
+	width:160px;
+	border-top:2px solid #999;
+	content:"";
+}
+
+/* ------------------------------------------------------- */
+/* List
+/* ------------------------------------------------------- */
+.wi-list {
+	display:block;
+	margin:0 0 30px;
+}
+.wi-list ul,
+.wi-list ol {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.wi-list li {
+	padding:5px 0;
+	padding-left:22px;
+	position:relative;
+}
+.wi-list.list-plus li {	
+}
+.wi-list.list-plus li:before {
+	position:absolute;		
+	content:"\002B";	
+	font-weight:bold;
+	top:5px;
+	left:0;
+}
+.wi-list.list-minus li:before {
+	position:absolute;		
+	content:"\2013";
+	top:5px;
+	left:0;
+}
+.wi-list.list-hash li:before {
+	position:absolute;		
+	content:"\23";
+	top:5px;
+	left:0;
+}
+.wi-list.list-star li {
+	padding-left:26px;
+	background:url(../images/star.png) no-repeat left 9px;
+	background-size:14px;
+}	
+	
+
+/* ------------------------------------------------------- */
+/* Buttons
+/* ------------------------------------------------------- */
+.button-container {
+	display:inline-block;
+	margin:0 10px 20px 0;
+}
+.wi-button {
+	display:block;
+	padding:10px 16px;
+	font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+	font-size:12px;
+	background:transparent;
+	border:1px solid #777;
+	color:#777;
+	text-decoration:none;
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+.wi-button:hover {
+	border-color:#000;
+	color:#000;
+}
+.wi-button i {
+	margin-left:10px;
+}
+.wi-content a.wi-button {
+	border-bottom-style:solid;
+	}
+
+	/* style 2 */
+.wi-button.style-2:hover {
+	border-color:#0dad9d;
+	color:#0dad9d;
+}
+.wi-button.style-3 {
+	color:#fff;
+	background:#222;
+	border-color:transparent;
+	-moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+.wi-button.style-3:hover {
+	-moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+	background-color:#0dad9d;
+}
+
+/* ------------------------------------------------------- */
+/* Highlight
+/* ------------------------------------------------------- */
+.highlight {
+	background-color:#FFFF99;
+	color:#333;
+	padding:0px 8px;
+	display:inline-block;
+	-webkit-border-radius:1px;
+	   -moz-border-radius:1px;
+			border-radius:1px;
+	}
+.highlight.style-2 {
+	background-color:#333;
+	color:#fff;
+	}
+
+/* ------------------------------------------------------- */
+/* Iconbox
+/* ------------------------------------------------------- */
+.wi-iconbox {
+	position:relative;
+	margin-bottom:30px;
+	}
+.wi-iconbox:after {
+	position:absolute;
+	bottom:-15px;
+	left:0;
+	content:"";
+	width:50px;
+	border-top:1px solid #777;
+	}
+.wi-iconbox .iconbox-title {
+	font-size:16px;
+	margin-bottom:10px;
+	color:#333;
+	}
+.wi-iconbox .iconbox-title i {
+	color:#333;
+	margin-right:10px;
+	font-size:18px;
+	border-radius:100%;
+	border:1px solid #ccc;
+	background:#f1f1f1;
+	line-height:36px;
+	height:36px;
+	width:36px;
+	text-align:center;
+	display:inline-block;
+	}	
+.wi-iconbox .text .desc {
+	color:#777
+	}
+.wi-iconbox .text p {
+	margin-bottom:20px;
+	}
+.wi-iconbox .text strong {
+	font-weight:normal;
+	color:#000;
+	}
+	
+/* ------------------------------------------------------- */
+/* Recent posts
+/* ------------------------------------------------------- */
+.wi-recent-posts {
+	display:block;
+	clear:both;
+	overflow:hidden;
+	margin:0 0 30px
+	}
+.wi-recent-posts .recent-post {
+	position:relative;
+	clear:both;
+	margin-bottom:30px;
+	padding:10px 0;
+	}
+.wi-recent-posts .recent-post:after {
+	content:"";
+	border-top:1px solid #999;
+	width:40%;
+	min-width:150px;
+	position:absolute;
+	bottom:-15px;
+	left:0;
+	}	
+	/*date time*/
+.wi-recent-posts .time {
+	display:block;
+	float:left;
+	margin-right:20px;
+	text-align:center;
+	width:80px;
+	padding:10px;
+	}
+.wi-recent-posts .time .date {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	display:block;
+	line-height:1.1
+	}
+.wi-recent-posts .time .month {
+	font-size:12px;
+	display:block;
+	text-transform:uppercase;
+	}
+
+	/*text*/
+.wi-recent-posts .text {
+	display:table-cell;
+	}
+.wi-recent-posts .recent-post-title	{
+	font-weight:700;
+	font-size:18px;
+	margin-bottom:5px;
+	}
+.wi-recent-posts .recent-post-title a,
+.wi-recent-posts .recent-post-title a:hover {
+	color:#333;
+	border-bottom:none;
+	}
+.wi-recent-posts .excerpt {
+	color:#777;
+	}		
+/* ------------------------------------------------------- */
+/* Shortcodes on widgets
+/* ------------------------------------------------------- */
+.sidr .widget .iconsc,
+.sidr .widget .iconsc a {
+	color:#aaa;
+	color:rgba(255,255,255,.6);
+}
+.sidr .widget .iconsc:hover,
+.sidr .widget .iconsc:hover a {
+	color:#fff;
+	border-color:#fff;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* Retina
+/* -------------------------------------------------------------------------------------- */
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi){ 
+	.wi-list.list-star li {
+		background-image:url(../images/star@2x.png);
+		}
+}
