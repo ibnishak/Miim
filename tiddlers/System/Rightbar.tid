@@ -1,0 +1,82 @@
+created: 20161220164638950
+creator: Riz
+extra_class: rightbar hidetitle hidesubtitle hidecontrols hidetags animated fadeIn
+modified: 20170107082325208
+modifier: Riz
+tags: 
+title: Rightbar
+type: text/vnd.tiddlywiki
+
+\define exportfilename()
+$(versenumber)$.txt
+\end
+\define contentendcoded()
+<$view format="urlencoded">
+\end
+<$set name=versenumber value={{$:/_state/verse}}>
+<section class="mail-client__right">
+    <div class="mail-client__right__up-section">
+      <div class="mail-client__email-actions">
+<span class="icon fa fa-mail-reply"><$button class="tc-btn-invisible"><$action-setfield $tiddler="$:/TagPopup" tags="$:/tags/PageTemplate"/>{{tag.svg}}</$button></span>
+<span class="icon fa fa-mail-reply-all"><$button class="tc-btn-invisible"><$action-sendmessage $message="tm-new-tiddler" tags={{$:/_state/verse}} interface_element="note"/>{{addnotes.svg}}</$button></span>
+ <$tiddler tiddler={{$:/_state/verse}}><$reveal state="!!bookmark" type="match" text=""><span class="icon fa fa-long-arrow-right"><$button class="tc-btn-invisible"><$action-setfield $tiddler={{$:/_state/verse}} interface_element="meta" bookmark="bookmarked"/>{{star.svg}}</$button></span></$reveal></$tiddler>
+<$tiddler tiddler={{$:/_state/verse}}><$reveal state="!!bookmark" type="nomatch" text=""><span class="icon fa fa-long-arrow-right"><$button class="tc-btn-invisible"><$action-setfield $tiddler={{$:/_state/verse}} interface_element="meta" bookmark=""/>{{star.svg}}</$button></span></$reveal></$tiddler>
+<span class="icon fa fa-ellipsis-h"><$button class="tc-btn-invisible">{{export.svg}}<$action-sendmessage $message="tm-download-file" $param="$:/Nuun/ExportText" filename=<<exportfilename>>/></$button></span>
+      </div>
+      <div class="mail-client__search-container">
+        <span class="icon fa fa-search"></span>{{$:/Nuun/Right/Search}}
+      </div>
+    </div>
+    <div class="mail-client__email-detail animated fadeIn">
+      <span class="mail-client__email-detail__from-to"><span class="bold">{{$:/Nuun/tags}} </span>
+      </span><span class="mail-client__email-detail__time">{{$:/_state/verse}}</span>
+      <$tiddler tiddler={{$:/_state/verse}}><$reveal state="!!bookmark" type="nomatch" text=""><$image source="$:/icon.png" class="mail-client__email-detail__avatar"/></$reveal></$tiddler>
+<$scrollable class="versescroll"><div class="textproperties">
+      <h4 class="mail-client__email-detail__title" lang="ar">
+         <$list filter="[[dataArab30]getindex{$:/_state/verse}]"><<currentTiddler>></$list>
+          </h4>
+      <div class="detail-commentary">
+        <div class="detail-headings">
+          Translation by <$tiddler tiddler={{$:/_state/translation}}>{{!!displayname}}</$tiddler>
+          </div>
+        <div class="mail-client__email-detail__description">
+          <$list filter="[{$:/_state/translation}getindex{$:/_state/verse}]"><<currentTiddler>></$list>
+          </div>
+        </div>
+      <$reveal state="$:/_state/transliteration" type="match" text="show">
+      <div class="detail-commentary">
+        <div class="detail-headings">
+          Transliteration.
+          </div>
+        <div class="mail-client__email-detail__description">
+          <$tiddler tiddler={{$:/_state/chapter}}><$list filter="[interface_element[transliteration]part{!!part}getindex{$:/_state/verse}]"><<currentTiddler>></$list></$tiddler>
+          </div>
+        </div>
+       </$reveal>
+      <div class="detail-commentary">
+        <div class="detail-headings">
+          Commentary by <$tiddler tiddler={{$:/_state/commentary}}>{{!!displayname}}</$tiddler>
+        </div>
+        <div class="mail-client__email-detail__description">
+          <$list filter="[{$:/_state/commentary}getindex{$:/_state/verse}]"><<currentTiddler>></$list>
+        </div>
+      </div> </div>
+</$scrollable>
+      <div class="mail-client__email-detail__response-container">
+        <div class="mail-client__email-detail__actions">
+          <div class="icon fa fa-font"><$button class="tc-btn-invisible"><$action-sendmessage $message="tm-modal" $param="Text Properties"/>A</$button></div>
+          <div class="icon fa fa-chain"><$button popup=<<qualify $:/state/social>> class="tc-btn-invisible tc-btn-socialRaw">{{$:/core/images/globe}}<$wikify name=tweet text={{$:/TweetShare}}><$action-setfield $tiddler="$:/state/twitter" text=<<tweet>>/></$wikify></$button>
+<$reveal state=<<qualify $:/state/social>> type="popup" class="thinwidthdropdown animated fadeIn" position="right">
+<$tiddler tiddler="$:/state/twitter">
+<$wikify name=foo text=<<contentendcoded>>>
+<$set name=bar filter="[<foo>addprefix[https://twitter.com/intent/tweet?text=]]">
+<a target="_blank" href=<<bar>>> {{twitter.svg}}</a></$set>
+</$wikify>
+</$tiddler>
+</$reveal>
+</div>
+          
+        </div>
+      </div>
+    </div>
+</section>

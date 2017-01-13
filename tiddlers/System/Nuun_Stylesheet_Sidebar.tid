@@ -1,0 +1,48 @@
+created: 20161221044809708
+modified: 20170108082924678
+tags: $:/tags/Stylesheet
+title: Nuun/Stylesheet/Sidebar
+type: text/vnd.tiddlywiki
+
+<$reveal state="$:/state/sidebar" type="nomatch" text="no">
+.tc-sidebar-scrollable {
+	position: fixed;
+	top: 0px;
+	left: 700px;
+	bottom: 0;
+	right: 0;
+	overflow-y: auto;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	margin: 0 0 0 -42px;
+	padding: 71px 0 28px 42px;
+background:#FFF;
+}
+</$reveal>
+
+<$reveal state="$:/state/sidebar" type="match" text="no">
+.tc-sidebar-scrollable {
+display:none !important;
+}
+</$reveal>
+.tc-sidebar-lists .tc-tab-buttons button {
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1;
+    padding: 0 5px 5px 2px;
+    text-align: center;
+    color: #9a9a9a;
+    -webkit-transition: color .1s ease-in;
+    transition: color .1s ease-in;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-right: 30px;
+}
+.tc-sidebar-lists .tc-tab-buttons button.tc-tab-selected {
+    background: none;
+    border: none;
+    border-bottom: solid 1px #737373 !important;
+    font-weight: bold;
+    color: #DB4C3F !important;
+}`

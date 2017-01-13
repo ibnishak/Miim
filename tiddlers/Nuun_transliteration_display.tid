@@ -1,0 +1,7 @@
+created: 20161225074617371
+modified: 20161225074922453
+tags: $:/tags/PrimarySettings
+title: Nuun/transliteration/display
+type: text/vnd.tiddlywiki
+
+<$checkbox tiddler="$:/_state/transliteration" field="text" checked="show" unchecked="hide" default="hide">  Transliteration </$checkbox>

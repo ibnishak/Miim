@@ -1,0 +1,12 @@
+created: 20161231165959990
+fontfamily: Helvetica
+fontsize: 15px
+modified: 20161231183232429
+tags: $:/tags/Stylesheet
+title: Nuun/Varying
+type: text/vnd.tiddlywiki
+
+.textproperties {
+font-size:{{!!fontsize}};
+font-family:{{!!fontfamily}};
+}

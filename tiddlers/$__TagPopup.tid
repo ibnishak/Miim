@@ -1,0 +1,23 @@
+created: 20161120033758372
+modified: 20170107050035629
+tags: Inactive
+title: $:/TagPopup
+type: text/vnd.tiddlywiki
+
+<div class="jumpversepopup">
+<$button class="tc-btn-invisible tc-btn-mini floatright"><$action-setfield $tiddler="$:/TagPopup" tags="Inactive"/>&times;</$button>
+      <div style="text-align:center;padding-top:20%;">
+Add your tags for the verse
+                
+                <div style="padding-top:5%;"> <$edit-text tiddler="$:/_state/addtag" class="borderonepx" tag="input"/> </div>
+
+          <$button class="tc-btn-invisible margintop30" style="width:90%;">
+<$action-setfield $tiddler="$:/TagPopup" tags="Inactive"/>
+<$action-setfield $tiddler={{$:/_state/verse}} interface_element="meta"/>
+<$action-listops $tiddler={{$:/_state/verse}} $tags={{$:/_state/addtag}}/>
+<$action-setfield $tiddler="$:/_state/addtag" text=""/>
+            <div class="center40h disblock bggradcyan" style="width:100%;"><div><div class="gotham13 disinblockwhite"> Add Tag 
+              </div></div></div>
+          </$button>
+        </div>
+</div>

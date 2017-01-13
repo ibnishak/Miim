@@ -1,0 +1,65 @@
+created: 20161120033925574
+draft.of: CenterPopup.css
+draft.title: CenterPopup.css
+modified: 20161225175725415
+tags: $:/tags/Stylesheet $:/teuxdeux
+title: Draft of 'CenterPopup.css'
+type: text/css
+
+.floatright {
+    float: right;
+    padding: 10px;
+}
+.borderonepx {
+	border: 1px solid #e1e1e1;
+	padding: 3px;
+	padding-top: 10px;
+	width: 70%;
+}
+.center40h.disblock {
+    display: block;
+}
+.borderonepx:focus {
+    border: 1px solid #c1c1c1;
+}
+.center40h.bggradcyan {
+    background: #20a6a5;
+    background: linear-gradient(37deg, #20a6a5 0, #5bc583 100%);
+}
+.center40h {
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.gotham13 {
+    font-family: gotham, helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.disinblockwhite {
+    color: white;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: top;
+    margin-top: 11px;
+}
+.jumpversepopup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 650;
+    background: #fff;
+    height: 20vw;
+    width: 30vw;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, .04), -6px 8px 15px rgba(0, 0, 0, .04), 6px 8px 15px rgba(0, 0, 0, .04);
+}
+.margintop30 {
+	margin-top: 10px;
+}

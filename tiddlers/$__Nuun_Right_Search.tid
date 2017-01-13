@@ -1,0 +1,43 @@
+created: 20161228054353240
+modified: 20161228063758219
+tags: 
+title: $:/Nuun/Right/Search
+type: text/vnd.tiddlywiki
+
+\define entersearch()
+<$action-setfield $tiddler="$:/temp/search" text={{$:/tesseract/searchsub}}/>
+\end
+<div class="tc-sidebar-lists">
+
+<$set name="searchTiddler" value="$:/temp/search">
+<div class="tc-search">
+  <$keyboard key=enter actions=<<entersearch>>>
+  <$edit-text  tiddler="$:/tesseract/searchsub" class="tc-popup-handle" placeholder="Search" type="search" tag="input"  focus={{$:/config/Search/AutoFocus}}  focusPopup=<<qualify "$:/state/popup/search-dropdown">>/>
+
+<$reveal state="$:/temp/search" type="nomatch" text="">
+<$button tooltip={{$:/language/Buttons/AdvancedSearch/Hint}} aria-label={{$:/language/Buttons/AdvancedSearch/Caption}} class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/advancedsearch" text={{$:/temp/search}}/>
+<$action-setfield $tiddler="$:/temp/search" text=""/>
+<$action-navigate $to="$:/AdvancedSearch"/>
+{{$:/core/images/advanced-search-button}}
+</$button>
+<$button class="tc-btn-invisible">
+<$action-setfield $tiddler="$:/temp/search" text="" />
+<$action-setfield $tiddler="$:/tesseract/searchsub" text="" />
+{{$:/core/images/close-button}}
+</$button>
+</$reveal>
+
+<$reveal state="$:/temp/search" type="match" text="">
+<$button to="$:/AdvancedSearch" tooltip={{$:/language/Buttons/AdvancedSearch/Hint}} aria-label={{$:/language/Buttons/AdvancedSearch/Caption}} class="tc-btn-invisible">
+{{$:/core/images/advanced-search-button}}
+</$button>
+</$reveal>
+ </$keyboard>
+</div>
+<$reveal tag="div" class="tc-block-dropdown-wrapper" state="$:/temp/search" type="nomatch" text="">
+<$reveal tag="div" class="tc-block-dropdown tc-search-drop-down tc-popup-handle" state=<<qualify "$:/state/popup/search-dropdown">> type="nomatch" text="" default="">
+{{$:/core/ui/SearchResults}}
+</$reveal>
+</$reveal>
+</$set>

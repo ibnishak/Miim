@@ -1,0 +1,9 @@
+created: 20161228110824489
+modified: 20161228113104108
+tags: 
+title: $:/Nuun/tags
+type: text/vnd.tiddlywiki
+
+<$list filter="[{$:/_state/verse}tags[]]">
+<span>#{{||$:/core/ui/TagTemplate}}</span>
+</$list>

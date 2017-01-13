@@ -1,0 +1,11 @@
+created: 20161220174713666
+creator: Riz
+modified: 20170107084059415
+modifier: Riz
+tags: $:/tags/Stylesheet
+title: Nuun/Stylesheet/Admin
+type: text/vnd.tiddlywiki
+
+.hidecontrols .tc-titlebar .tc-tiddler-controls {display:none;}
+
+.hidecontrols > .tc-tiddler-body > p:nth-child(1) {margin-top:0;}

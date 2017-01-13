@@ -1,0 +1,14 @@
+created: 20161228031932166
+modified: 20170107064432395
+tags: 
+title: $:/Nuun/ExportText
+type: text/vnd.tiddlywiki
+
+Holy Qur'an: Verse {{$:/_state/verse}}
+<p>
+Translation by <$tiddler tiddler={{$:/_state/translation}}>{{!!displayname}}</$tiddler>:<br/>
+<$list filter="[{$:/_state/translation}getindex{$:/_state/verse}]"><<currentTiddler>></$list>
+<br/><br/>
+Commentary by <$tiddler tiddler={{$:/_state/commentary}}>{{!!displayname}}</$tiddler>:<br/>
+<$list filter="[{$:/_state/commentary}getindex{$:/_state/verse}]"><<currentTiddler>></$list>
+</p>

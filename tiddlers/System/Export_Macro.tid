@@ -1,0 +1,20 @@
+created: 20161206124206302
+modified: 20161223043027839
+tags: 
+title: Export Macro
+type: text/vnd.tiddlywiki
+
+\define exportButtonFilename(baseFilename)
+$baseFilename$$(extension)$
+\end
+
+\define exportButtontesseract(exportFilter:"[!is[system]sort[title]]",lingoBase,baseFilename:"TesseractUI")
+<$tiddler tiddler="$:/core/templates/exporters/JsonFile">
+<$set name="extension" value={{!!extension}}>
+<$button class="tc-btn-invisible">
+<$action-sendmessage $message="tm-download-file" $param=<<currentTiddler>> exportFilter="""$exportFilter$""" filename=<<exportButtonFilename """$baseFilename$""">>/>
+<$transclude field="description"/>
+</$button>
+</$set>
+</$tiddler>
+\end

@@ -1,0 +1,12 @@
+created: 20161225044426716
+modified: 20161225050050318
+tags: $:/tags/PrimarySettings
+title: tesseract/nuun/translation
+type: text/vnd.tiddlywiki
+
+<$select tiddler='$:/_state/translation'>
+<$tiddler tiddler={{$:/_state/chapter}}>
+<$list filter='[interface_element[translation]part{!!part}]'>
+<option value={{!!title}}><$view field='displayname'/></option>
+</$list>
+</$select>

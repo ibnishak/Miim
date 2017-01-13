@@ -1,0 +1,236 @@
+created: 20161220170053992
+creator: Riz
+modified: 20170107055020077
+modifier: Riz
+tags: $:/tags/Stylesheet
+title: Nuun/Stylesheet/Base
+type: text/css
+
+html {
+background:#fff;
+}
+
+*:lang(ar) {
+    font-family: PDMS_Saleem_QuranFont !important;
+}
+.leftbar {
+	width: 300px !important;
+	padding: 0;
+	margin: 0;
+	border: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.mail-client__left {
+	width: 250px;
+	background-color: #F4F7F9;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+.mail-client__center {
+	width: 400px;
+	
+	top: 0;
+	left: 300px;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05), 0 -5px 5px 0 rgba(0, 0, 0, 0.05);
+	padding: 0;
+	border: transparent;
+        z-index: 100;
+        background: #F4F7F9;
+}
+
+.commentary {
+	height: 100vh;
+	position: fixed;
+	width: 420px;
+	top: 0;
+	left: 250px;
+}
+
+.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists.versebar.hidetitle.hidesubtitle {
+	padding: 0;
+	border: transparent;
+	box-sizing: border-box;
+
+	z-index: 10;
+	background: #F4F7F9;
+	width: 400px;
+	position: fixed;
+	top: 0;
+	left: 300px;
+        box-shadow:none;
+}
+
+
+.tc-story-river {
+	padding: 0;
+	position: relative;
+	width: auto;
+	left: 0;
+	margin-left: 650px;
+}
+.tc-tiddler-frame{
+	top: 0;
+	right: 0;	
+z-index:500;
+box-shadow: 0px 6px 50px rgba(0,0,0,.04),-6px 6px 25px rgba(0,0,0,.04),10px 8px 15px rgba(0,0,0,.04);
+margin-bottom:0;
+}
+
+.tc-sidebar-scrollable {
+z-index:1000;
+}
+.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists.rightbar.hidetitle.hidesubtitle.hidecontrols {
+	padding: 0;
+	margin: 0;
+min-height:100vh;
+}
+
+.chapterselect select {
+	width: 170px;
+	background: #FC5C64;
+	font-weight: bold;
+	border: transparent;
+	padding-left: 20px;
+}
+.chapterselect {
+	width: 150px;
+	overflow: hidden;
+	right: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+        bottom:0;
+        height:20px;
+}
+
+option {
+	background: #fff;
+	color: #333;
+	text-align: left;
+	padding: 1px 2px 0 5px;
+font-weight:400;
+}
+
+.mail-client__email-list input[type=radio] {
+display:none;
+}
+
+
+input[type=radio]:checked + span .mail-client__email-item{
+background-color: white;
+box-shadow: 0 6px 20px rgba(0,0,0,.04),-6px 8px 15px rgba(0,0,0,.04),6px 8px 15px rgba(0,0,0,.04);
+overflow-x: hidden;
+}
+label.mail-client__categories__item input[type="radio"]:checked + span span.text {
+	color: #000;
+}
+label.mail-client__categories__item input[type="radio"] + span span.text {
+	margin-left:10px;
+}
+
+label.mail-client__categories__item input[type=radio] {
+display:none;
+}
+.detail-headings {
+	color: #F2A37D;
+	/* font-style: italic; */
+}
+.detail-commentary{
+	margin:30px 0;
+}
+
+.tagfield {
+	position: absolute;
+	top: 23px;
+	
+}
+.tagfield input {
+	border: 1px solid bisque;
+	border: 1px solid #A3ADBB !important;
+	padding: 5px !important;
+	width: 250px;
+	border-radius: 3px;
+}
+.mail-client__search-container .tc-block-dropdown.tc-search-drop-down.tc-popup-handle.tc-reveal {
+	right: 20px;
+	margin-top: 25px;
+min-width:375px;
+-webkit-box-shadow: -12px 15px 30px -14px rgba(153,148,153,0.2);
+-moz-box-shadow: -12px 15px 30px -14px rgba(153,148,153,0.2);
+box-shadow: -12px 15px 30px -14px rgba(153,148,153,0.2);
+border: 1px solid #ede;
+}
+.mail-client__search-container input[type="search"] {
+	border: 1px solid transparent;
+	padding: 0;
+}
+.mail-client__search-container .tc-block-dropdown a:hover {
+color:#333;
+}
+.sidebarbtn {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	background: #FC5C64;
+	padding: 10px;
+	z-index: 5000;
+	-webkit-box-shadow: -12px 15px 30px -14px rgba(153,148,153,0.7);
+	-moz-box-shadow: -12px 15px 30px -14px rgba(153,148,153,0.7);
+	 box-shadow: -12px 15px 30px -14px rgba(153,148,153,0.7);
+	border-radius: 10px 0;
+}
+.sidebarbtn svg {
+fill:#fff;
+}
+svg.bookmarksvg {
+	height: 20px;
+	width: 3px;
+}
+
+.icon svg {
+	fill: #a3adbb;
+	font-size: 15px;
+	cursor: pointer;
+	-webkit-transition: all cubic-bezier 0.1s;
+	transition: all cubic-bezier 0.1s;
+	height: 20px;
+	width: 20px;
+}
+button.tc-tag-label, span.tc-tag-label {
+	padding: 0.16em 0.2em;
+	font-size: 1em;
+	background-color: #fff;
+	border-radius: 1em;
+	color: #8098ab !important;
+}
+.tc-drop-down {	
+	min-width: calc(100% + 200px);
+}
+.mail-client__labels__item .icon svg, .mail-client__categories .icon svg {
+	font-size: 15px;
+	cursor: pointer;
+	-webkit-transition: all cubic-bezier 0.1s;
+	transition: all cubic-bezier 0.1s;
+	height: 12px;
+	width: 12px;
+}
+.mail-client__labels__title svg {
+	height: 12px;
+	fill: #FF632F;
+        width:12px;
+margin-right:10px;
+}
+
+.mail-client__labels__item .icon svg {
+fill: #5C6BC0 !important;
+}
+.mail-client__categories .icon svg {
+fill: #FC5C64;
+}
