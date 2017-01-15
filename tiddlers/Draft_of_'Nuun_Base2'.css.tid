@@ -1,7 +1,9 @@
 created: 20161228132505390
-modified: 20170114080544011
+draft.of: Nuun/Base2
+draft.title: Nuun/Base2
+modified: 20170114080536441
 tags: $:/tags/Stylesheet
-title: Nuun/Base2
+title: Draft of 'Nuun/Base2'
 type: text/css
 
 .mail-client__labels .tc-btn-invisible {
@@ -27,7 +29,4 @@ padding: 0.16em 0.7em;
 	color: #333 !important;
 	margin-left: 1em;
 	text-indent: -0.5em;
-}
-p.indent i {
-	font-weight: 600;
 }
