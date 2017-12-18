@@ -1,8 +1,0 @@
-created: 20170101171631903
-modified: 20170101172448091
-title: Share Button
-type: text/vnd.tiddlywiki
-
-<$wikify name="tweet" text={{$:/tesseract/Nuun/Tweetfield}}>
-<$wikify name="share" text={{$:/tesseract/Nuun/ShareField}}>
-<$button popup=<<qualify $:/state/social>> class="tc-btn-invisible tc-btn-socialRaw">{{$:/core/images/globe}}<$action-setfield $tiddler="$:/state/tweet" text=<<tweet>>/><$action-setfield $tiddler="$:/state/share" text=<<share>>/></$button>

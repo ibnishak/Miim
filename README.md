@@ -1,2 +1,0 @@
-# Nuun
-My Tafsir Collection

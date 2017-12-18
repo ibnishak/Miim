@@ -1,7 +1,0 @@
-created: 20161220174911149
-modified: 20170108112035181
-tags: $:/tags/SideBar
-title: Admin
-type: text/vnd.tiddlywiki
-
-<$checkbox tiddler="Nuun/Stylesheet/Admin" tag="$:/tags/Stylesheet">  Hide  Admin </$checkbox>

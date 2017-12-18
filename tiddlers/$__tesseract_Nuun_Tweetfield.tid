@@ -1,8 +1,0 @@
-created: 20170101170510223
-modified: 20170101170859814
-tags: SocialMacros
-title: $:/tesseract/Nuun/Tweetfield
-type: text/vnd.tiddlywiki
-
-<$list filter="[{$:/_state/translation}getindex{$:/_state/verse}]"><<currentTiddler>></$list>
-Qur'an {{$:/_state/verse}}: 

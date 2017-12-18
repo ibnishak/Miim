@@ -1,0 +1,11 @@
+created: 20171218102333119
+modified: 20171218123840210
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[content[Note]addprefix[../notes/]]
+[prefix[$:/config/bookmark/]removeprefix[$:/config/bookmark/visibility]addprefix[../bookmarks/]]
+[prefix[$:/config]removeprefix[$:/]]
+[prefix[$:/_state]removeprefix[$:/_]]
+[is[system]removeprefix[$:/]addprefix[_system/]]
+[!has[draft.of]]

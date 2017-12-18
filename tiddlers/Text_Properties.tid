@@ -1,9 +1,0 @@
-created: 20161231170749296
-modified: 20161231182617927
-title: Text Properties
-type: text/vnd.tiddlywiki
-
-<div class="widetable">
-
-|Font-size: |<$edit-text tiddler="Nuun/Varying" field="fontsize"/>|
-|Font-Family: |<$edit-text tiddler="Nuun/Varying" field="fontfamily"/>|
