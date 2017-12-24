@@ -1,2 +1,3 @@
 *.todo
 *StoryList.tid
+.system/server/src/uncaughtException.log
