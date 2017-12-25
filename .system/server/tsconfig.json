@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": ".",
+        "baseUrl": ".",
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "sourceMap": false,
+        "inlineSourceMap": false
+        //"lib": [],
+        
+    },
+    "exclude": [
+        "node_modules",
+        "new-server",
+        "archive"
+    ]
+}

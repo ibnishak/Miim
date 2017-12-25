@@ -1,0 +1,13 @@
+{
+	"tree": {
+		"Juz 1": "../../Juz01",
+		"Juz 2": "../../Juz02",
+		"Juz 3": "../../Juz03",
+		"Juz 30": "../../Juz30",
+		"index": "../index.html"
+	},
+	"username": "",
+	"password": "",
+	"host": "127.0.0.1",
+	"port": 8888
+}

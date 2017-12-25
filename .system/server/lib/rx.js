@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Rx_min_1 = require("./Rx.min");
+exports.Observable = Rx_min_1.Observable;
+exports.Subject = Rx_min_1.Subject;
+exports.Subscription = Rx_min_1.Subscription;
+exports.BehaviorSubject = Rx_min_1.BehaviorSubject;
+exports.Subscriber = Rx_min_1.Subscriber;
+exports.Scheduler = Rx_min_1.Scheduler;
+require("./rxjs-operators/routeCase.add");
+//export { Observable, Subject, Subscription, BehaviorSubject, Subscriber, Observer, Scheduler }; 

@@ -4,9 +4,10 @@ created: 20171218124257912
 dependents: 
 description: TiddlyWiki5 core
 list: readme
-modified: 20171218125052557
+modified: 20171225114757138
 plugin-priority: 0
 plugin-type: plugin
+revision: 2
 title: $:/core
 type: application/json
 version: 5.1.15-Nuun
@@ -478,11 +479,6 @@ version: 5.1.15-Nuun
             "title": "$:/core/images/tip",
             "tags": "$:/tags/Image",
             "text": "<svg class=\"tc-image-tip tc-image-button\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 128 128\">\n    <g fill-rule=\"evenodd\">\n        <path d=\"M64,128.241818 C99.346224,128.241818 128,99.5880417 128,64.2418177 C128,28.8955937 99.346224,0.241817675 64,0.241817675 C28.653776,0.241817675 0,28.8955937 0,64.2418177 C0,99.5880417 28.653776,128.241818 64,128.241818 Z M75.9358659,91.4531941 C75.3115438,95.581915 70.2059206,98.8016748 64,98.8016748 C57.7940794,98.8016748 52.6884562,95.581915 52.0641341,91.4531941 C54.3299053,94.0502127 58.8248941,95.8192805 64,95.8192805 C69.1751059,95.8192805 73.6700947,94.0502127 75.9358659,91.4531941 L75.9358659,91.4531941 Z M75.9358659,95.9453413 C75.3115438,100.074062 70.2059206,103.293822 64,103.293822 C57.7940794,103.293822 52.6884562,100.074062 52.0641341,95.9453413 C54.3299053,98.5423599 58.8248941,100.311428 64,100.311428 C69.1751059,100.311428 73.6700947,98.5423599 75.9358659,95.9453413 L75.9358659,95.9453413 Z M75.9358659,100.40119 C75.3115438,104.529911 70.2059206,107.74967 64,107.74967 C57.7940794,107.74967 52.6884562,104.529911 52.0641341,100.40119 C54.3299053,102.998208 58.8248941,104.767276 64,104.767276 C69.1751059,104.767276 73.6700947,102.998208 75.9358659,100.40119 L75.9358659,100.40119 Z M75.9358659,104.893337 C75.3115438,109.022058 70.2059206,112.241818 64,112.241818 C57.7940794,112.241818 52.6884562,109.022058 52.0641341,104.893337 C54.3299053,107.490356 58.8248941,109.259423 64,109.259423 C69.1751059,109.259423 73.6700947,107.490356 75.9358659,104.893337 L75.9358659,104.893337 Z M64.3010456,24.2418177 C75.9193117,24.2418188 88.0000013,32.0619847 88,48.4419659 C87.9999987,64.8219472 75.9193018,71.7540963 75.9193021,83.5755932 C75.9193022,89.4486648 70.0521957,92.8368862 63.9999994,92.8368862 C57.947803,92.8368862 51.9731007,89.8295115 51.9731007,83.5755932 C51.9731007,71.1469799 39.9999998,65.4700602 40,48.4419647 C40.0000002,31.4138691 52.6827796,24.2418166 64.3010456,24.2418177 Z\"></path>\n    </g>\n</svg>"
-        },
-        "$:/core/images/twitter": {
-            "title": "$:/core/images/twitter",
-            "tags": "$:/tags/Image",
-            "text": "<svg class=\"tc-image-twitter tc-image-button\" width=\"22pt\" height=\"22pt\" viewBox=\"0 0 128 128\">\n    <g fill-rule=\"evenodd\">\n        <path d=\"M41.6263422,115.803477 C27.0279663,115.803477 13.4398394,111.540813 1.99987456,104.234833 C4.02221627,104.472643 6.08004574,104.594302 8.16644978,104.594302 C20.277456,104.594302 31.4238403,100.47763 40.270894,93.5715185 C28.9590538,93.3635501 19.4123842,85.9189246 16.1230832,75.6885328 C17.7011365,75.9892376 19.320669,76.1503787 20.9862896,76.1503787 C23.344152,76.1503787 25.6278127,75.8359011 27.7971751,75.247346 C15.9709927,72.8821073 7.06079851,62.4745062 7.06079851,49.9982394 C7.06079851,49.8898938 7.06079851,49.7820074 7.06264203,49.67458 C10.5482779,51.6032228 14.5339687,52.7615103 18.7717609,52.8951059 C11.8355159,48.277565 7.2714207,40.3958845 7.2714207,31.4624258 C7.2714207,26.7434257 8.54621495,22.3200804 10.7713439,18.5169676 C23.5211299,34.0957738 42.568842,44.3472839 64.0532269,45.4210985 C63.6126256,43.5365285 63.3835682,41.5711584 63.3835682,39.5529928 C63.3835682,25.3326379 74.95811,13.8034766 89.2347917,13.8034766 C96.6697089,13.8034766 103.387958,16.930807 108.103682,21.9353619 C113.991886,20.780288 119.52429,18.6372496 124.518847,15.6866694 C122.588682,21.6993889 118.490075,26.7457211 113.152623,29.9327334 C118.381769,29.3102055 123.363882,27.926045 127.999875,25.8780385 C124.534056,31.0418981 120.151087,35.5772616 115.100763,39.2077561 C115.150538,40.3118708 115.175426,41.4224128 115.175426,42.538923 C115.175426,76.5663154 89.1744164,115.803477 41.6263422,115.803477\"></path>\n    </g>\n</svg>\n"
         },
         "$:/core/images/underline": {
             "title": "$:/core/images/underline",
@@ -5945,12 +5941,6 @@ version: 5.1.15-Nuun
             "caption": "{{$:/language/ControlPanel/Appearance/Caption}}",
             "text": "{{$:/language/ControlPanel/Appearance/Hint}}\n\n<div class=\"tc-control-panel\">\n<<tabs \"[all[shadows+tiddlers]tag[$:/tags/ControlPanel/Appearance]!has[draft.of]]\" \"$:/core/ui/ControlPanel/Theme\">>\n</div>\n"
         },
-        "$:/core/ui/ControlPanel/Basics": {
-            "title": "$:/core/ui/ControlPanel/Basics",
-            "tags": "$:/tags/ControlPanel/Info",
-            "caption": "{{$:/language/ControlPanel/Basics/Caption}}",
-            "text": "\\define lingo-base() $:/language/ControlPanel/Basics/\n\n\\define show-filter-count(filter)\n<$button class=\"tc-btn-invisible\">\n<$action-setfield $tiddler=\"$:/temp/advancedsearch\" $value=\"\"\"$filter$\"\"\"/>\n<$action-setfield $tiddler=\"$:/state/tab--1498284803\" $value=\"$:/core/ui/AdvancedSearch/Filter\"/>\n<$action-navigate $to=\"$:/AdvancedSearch\"/>\n''<$count filter=\"\"\"$filter$\"\"\"/>''\n{{$:/core/images/advanced-search-button}}\n</$button>\n\\end\n\n|<<lingo Version/Prompt>> |''<<version>>'' |\n|<$link to=\"$:/SiteTitle\"><<lingo Title/Prompt>></$link> |<$edit-text tiddler=\"$:/SiteTitle\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/SiteSubtitle\"><<lingo Subtitle/Prompt>></$link> |<$edit-text tiddler=\"$:/SiteSubtitle\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/status/UserName\"><<lingo Username/Prompt>></$link> |<$edit-text tiddler=\"$:/status/UserName\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/config/AnimationDuration\"><<lingo AnimDuration/Prompt>></$link> |<$edit-text tiddler=\"$:/config/AnimationDuration\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/DefaultTiddlers\"><<lingo DefaultTiddlers/Prompt>></$link> |<<lingo DefaultTiddlers/TopHint>><br> <$edit tag=\"textarea\" tiddler=\"$:/DefaultTiddlers\" class=\"tc-edit-texteditor\"/><br>//<<lingo DefaultTiddlers/BottomHint>>// |\n|<$link to=\"$:/config/NewJournal/Title\"><<lingo NewJournal/Title/Prompt>></$link> |<$edit-text tiddler=\"$:/config/NewJournal/Title\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/config/NewJournal/Text\"><<lingo NewJournal/Text/Prompt>></$link> |<$edit tiddler=\"$:/config/NewJournal/Text\" tag=\"textarea\" class=\"tc-edit-texteditor\" default=\"\"/> |\n|<$link to=\"$:/config/NewJournal/Tags\"><<lingo NewJournal/Tags/Prompt>></$link> |<$edit-text tiddler=\"$:/config/NewJournal/Tags\" default=\"\" tag=\"input\"/> |\n|<<lingo Language/Prompt>> |{{$:/snippets/minilanguageswitcher}} |\n|<<lingo Tiddlers/Prompt>> |<<show-filter-count \"[!is[system]sort[title]]\">> |\n|<<lingo Tags/Prompt>> |<<show-filter-count \"[tags[]sort[title]]\">> |\n|<<lingo SystemTiddlers/Prompt>> |<<show-filter-count \"[is[system]sort[title]]\">> |\n|<<lingo ShadowTiddlers/Prompt>> |<<show-filter-count \"[all[shadows]sort[title]]\">> |\n|<<lingo OverriddenShadowTiddlers/Prompt>> |<<show-filter-count \"[is[tiddler]is[shadow]sort[title]]\">> |\n"
-        },
         "$:/core/ui/ControlPanel/EditorTypes": {
             "title": "$:/core/ui/ControlPanel/EditorTypes",
             "tags": "$:/tags/ControlPanel/Advanced",
@@ -6051,12 +6041,6 @@ version: 5.1.15-Nuun
             "caption": "{{$:/language/ControlPanel/Saving/TiddlySpot/Caption}}",
             "text": "\\define lingo-base() $:/language/ControlPanel/Saving/TiddlySpot/\n\n\\define backupURL()\nhttp://$(userName)$.tiddlyspot.com/backup/\n\\end\n\\define backupLink()\n<$reveal type=\"nomatch\" state=\"$:/UploadName\" text=\"\">\n<$set name=\"userName\" value={{$:/UploadName}}>\n<$reveal type=\"match\" state=\"$:/UploadURL\" text=\"\">\n<<backupURL>>\n</$reveal>\n<$reveal type=\"nomatch\" state=\"$:/UploadURL\" text=\"\">\n<$macrocall $name=resolvePath source={{$:/UploadBackupDir}} root={{$:/UploadURL}}>>\n</$reveal>\n</$set>\n</$reveal>\n\\end\n\n<<lingo Description>>\n\n|<<lingo UserName>> |<$edit-text tiddler=\"$:/UploadName\" default=\"\" tag=\"input\"/> |\n|<<lingo Password>> |<$password name=\"upload\"/> |\n|<<lingo Backups>> |<<backupLink>> |\n\n''<<lingo Advanced/Heading>>''\n\n|<<lingo ServerURL>>  |<$edit-text tiddler=\"$:/UploadURL\" default=\"\" tag=\"input\"/> |\n|<<lingo Filename>> |<$edit-text tiddler=\"$:/UploadFilename\" default=\"index.html\" tag=\"input\"/> |\n|<<lingo UploadDir>> |<$edit-text tiddler=\"$:/UploadDir\" default=\".\" tag=\"input\"/> |\n|<<lingo BackupDir>> |<$edit-text tiddler=\"$:/UploadBackupDir\" default=\".\" tag=\"input\"/> |\n\n<<lingo TiddlySpot/Hint>>"
         },
-        "$:/core/ui/ControlPanel/Saving": {
-            "title": "$:/core/ui/ControlPanel/Saving",
-            "tags": "$:/tags/ControlPanel",
-            "caption": "{{$:/language/ControlPanel/Saving/Caption}}",
-            "text": "{{$:/language/ControlPanel/Saving/Hint}}\n\n<div class=\"tc-control-panel\">\n<<tabs \"[all[shadows+tiddlers]tag[$:/tags/ControlPanel/Saving]!has[draft.of]]\" \"$:/core/ui/ControlPanel/Saving/General\">>\n</div>\n"
-        },
         "$:/core/buttonstyles/Borderless": {
             "title": "$:/core/buttonstyles/Borderless",
             "tags": "$:/tags/ToolbarButtonStyle",
@@ -6147,12 +6131,6 @@ version: 5.1.15-Nuun
             "caption": "{{$:/language/ControlPanel/Settings/ToolbarButtons/Caption}}",
             "text": "\\define lingo-base() $:/language/ControlPanel/Settings/ToolbarButtons/\n<<lingo Hint>>\n\n<$checkbox tiddler=\"$:/config/Toolbar/Icons\" field=\"text\" checked=\"yes\" unchecked=\"no\" default=\"yes\"> <$link to=\"$:/config/Toolbar/Icons\"><<lingo Icons/Description>></$link> </$checkbox>\n\n<$checkbox tiddler=\"$:/config/Toolbar/Text\" field=\"text\" checked=\"yes\" unchecked=\"no\" default=\"no\"> <$link to=\"$:/config/Toolbar/Text\"><<lingo Text/Description>></$link> </$checkbox>\n"
         },
-        "$:/core/ui/ControlPanel/Settings": {
-            "title": "$:/core/ui/ControlPanel/Settings",
-            "tags": "$:/tags/ControlPanel",
-            "caption": "{{$:/language/ControlPanel/Settings/Caption}}",
-            "text": "\\define lingo-base() $:/language/ControlPanel/Settings/\n\n<<lingo Hint>>\n\n<$list filter=\"[all[shadows+tiddlers]tag[$:/tags/ControlPanel/Settings]]\">\n\n<div style=\"border-top:1px solid #eee;\">\n\n!! <$link><$transclude field=\"caption\"/></$link>\n\n<$transclude/>\n\n</div>\n\n</$list>\n"
-        },
         "$:/core/ui/ControlPanel/StoryView": {
             "title": "$:/core/ui/ControlPanel/StoryView",
             "tags": "$:/tags/ControlPanel/Appearance",
@@ -6210,10 +6188,12 @@ version: 5.1.15-Nuun
             "text": "{{$:/language/ControlPanel/Toolbars/Hint}}\n\n<div class=\"tc-control-panel\">\n<<tabs \"[all[shadows+tiddlers]tag[$:/tags/ControlPanel/Toolbars]!has[draft.of]]\" \"$:/core/ui/ControlPanel/Toolbars/ViewToolbar\" \"$:/state/tabs/controlpanel/toolbars\" \"tc-vertical\">>\n</div>\n"
         },
         "$:/ControlPanel": {
+            "created": "20171225062340017",
             "title": "$:/ControlPanel",
             "icon": "$:/core/images/options-button",
             "color": "#bbb",
-            "text": "<div class=\"tc-control-panel\">\n<<tabs \"[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]\" \"$:/core/ui/ControlPanel/Info\">>\n</div>\n"
+            "text": "<div class=\"tc-control-panel\">\n<<tabs \"[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]\" \"$:/core/ui/ControlPanel/Info\" \"$:/state/tab/controlPanel\">>\n</div>\n",
+            "modified": "20171225062357389"
         },
         "$:/core/ui/DefaultSearchResultList": {
             "title": "$:/core/ui/DefaultSearchResultList",
@@ -7285,10 +7265,12 @@ version: 5.1.15-Nuun
             "text": "\\whitespace trim\n<$button message=\"tm-permaview\" tooltip={{$:/language/Buttons/Permaview/Hint}} aria-label={{$:/language/Buttons/Permaview/Caption}} class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/permaview-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\">\n<$text text=\" \"/>\n<$text text={{$:/language/Buttons/Permaview/Caption}}/>\n</span>\n</$list>\n</$button>"
         },
         "$:/temp/advancedsearch": {
-            "created": "20171218123607165",
+            "text": "encoder",
+            "bag": "default",
+            "revision": "0",
             "title": "$:/temp/advancedsearch",
-            "text": "config",
-            "modified": "20171218123608467"
+            "modified": "20171225082921229",
+            "created": "20171218123607165"
         },
         "$:/snippets/allfields": {
             "title": "$:/snippets/allfields",
@@ -8135,24 +8117,15 @@ version: 5.1.15-Nuun
         },
         "$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize": {
             "title": "$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize",
-            "type": "application/x-tiddler",
-            "created": "20171213093900677",
-            "modified": "20171213093900678",
-            "text": "13px"
+            "text": "15px"
         },
         "$:/themes/tiddlywiki/vanilla/metrics/fontsize": {
             "title": "$:/themes/tiddlywiki/vanilla/metrics/fontsize",
-            "type": "application/x-tiddler",
-            "created": "20171213093904817",
-            "modified": "20171213093904817",
-            "text": "13px"
+            "text": "14px"
         },
         "$:/themes/tiddlywiki/vanilla/metrics/storyright": {
             "title": "$:/themes/tiddlywiki/vanilla/metrics/storyright",
-            "type": "application/x-tiddler",
-            "created": "20171216100747238",
-            "modified": "20171216100748231",
-            "text": "80%"
+            "text": "770px"
         },
         "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search": {
             "title": "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search",
@@ -8174,6 +8147,36 @@ version: 5.1.15-Nuun
             "created": "20171216104615557",
             "modified": "20171216104615557",
             "text": "hide"
+        },
+        "$:/core/images/share": {
+            "created": "20171225030258412",
+            "title": "$:/core/images/share",
+            "type": "application/x-tiddler",
+            "modified": "20171225065043071",
+            "tags": "$:/tags/Image",
+            "text": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 512 512\" style=\"enable-background:new 0 0 512 512;\" xml:space=\"preserve\" class=\"tc-image-share tc-image-button\" width=\"22pt\" height=\"22pt\">\n<g>\n\t<g>\n\t\t<path d=\"M512,253.001L295.204,36.204v144.388C132.168,180.592,0,312.76,0,475.796c59.893-109.171,178.724-165.462,295.204-151.033\n\t\t\tv145.034L512,253.001z\"/>\n\t</g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n</svg>\n"
+        },
+        "$:/core/ui/ControlPanel/Basics": {
+            "created": "20171225065205696",
+            "title": "$:/core/ui/ControlPanel/Basics",
+            "tags": "$:/tags/ControlPanel/Info",
+            "caption": "{{$:/language/ControlPanel/Basics/Caption}}",
+            "text": "\\define lingo-base() $:/language/ControlPanel/Basics/\n\n|<$link to=\"$:/SiteTitle\"><<lingo Title/Prompt>></$link> |<$edit-text tiddler=\"$:/SiteTitle\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/SiteSubtitle\"><<lingo Subtitle/Prompt>></$link> |<$edit-text tiddler=\"$:/SiteSubtitle\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/status/UserName\"><<lingo Username/Prompt>></$link> |<$edit-text tiddler=\"$:/status/UserName\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/config/AnimationDuration\"><<lingo AnimDuration/Prompt>></$link> |<$edit-text tiddler=\"$:/config/AnimationDuration\" default=\"\" tag=\"input\"/> |\n|<<lingo Language/Prompt>> |{{$:/snippets/minilanguageswitcher}} |\n|<<lingo Tiddlers/Prompt>> |<<show-filter-count \"[!is[system]sort[title]]\">> |\n\n",
+            "modified": "20171225065242602"
+        },
+        "$:/core/images/reddit": {
+            "created": "20171225113652659",
+            "title": "$:/core/images/reddit",
+            "text": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 512 512\"  class=\"tc-image-reddit tc-image-button\" width=\"18pt\" height=\"18pt\" xml:space=\"preserve\">\n<circle style=\"fill:#FE5022;\" cx=\"256\" cy=\"256\" r=\"256\"/>\n<path style=\"fill:#FF3501;\" d=\"M256,0c-11.317,0-22.461,0.744-33.391,2.167C348.216,18.53,445.217,125.933,445.217,256\n\ts-97.002,237.47-222.609,253.833C233.539,511.256,244.683,512,256,512c141.385,0,256-114.616,256-256S397.385,0,256,0z\"/>\n<g>\n\t<path style=\"fill:#ECE5DD;\" d=\"M322.783,122.991c-18.719,0-33.948-15.229-33.948-33.948s15.229-33.948,33.948-33.948\n\t\ts33.948,15.229,33.948,33.948S341.502,122.991,322.783,122.991z\"/>\n\t<path style=\"fill:#ECE5DD;\" d=\"M256,456.904c-96.049,0-174.191-65.16-174.191-145.252S159.951,166.4,256,166.4\n\t\ts174.191,65.16,174.191,145.252S352.049,456.904,256,456.904z\"/>\n\t<path style=\"fill:#ECE5DD;\" d=\"M424.432,278.477c-7.866-27.651-25.328-52.607-50.498-72.169l-8.19-6.365l7.533-7.131\n\t\tc10.409-9.854,24.099-15.281,38.548-15.281c30.994,0,56.209,25.215,56.209,56.209c0,21.051-12.183,40.777-31.038,50.256\n\t\tl-9.618,4.836L424.432,278.477z\"/>\n\t<path style=\"fill:#ECE5DD;\" d=\"M75.002,283.995c-18.854-9.48-31.037-29.206-31.037-50.256c0-30.994,25.215-56.209,56.209-56.209\n\t\tc14.453,0,28.144,5.426,38.55,15.28l7.532,7.131l-8.19,6.364c-25.17,19.562-42.633,44.518-50.499,72.17l-2.946,10.355\n\t\tL75.002,283.995z\"/>\n</g>\n<g>\n\t<path style=\"fill:#FE5022;\" d=\"M178.087,312.209c-18.719,0-33.948-15.229-33.948-33.948c0-18.719,15.229-33.948,33.948-33.948\n\t\ts33.948,15.229,33.948,33.948C212.035,296.98,196.806,312.209,178.087,312.209z\"/>\n\t<path style=\"fill:#FE5022;\" d=\"M333.913,312.209c-18.719,0-33.948-15.229-33.948-33.948c0-18.719,15.229-33.948,33.948-33.948\n\t\ts33.948,15.229,33.948,33.948C367.861,296.98,352.632,312.209,333.913,312.209z\"/>\n\t<path style=\"fill:#FE5022;\" d=\"M342.794,370.786c-22.714,18.928-53.539,29.353-86.794,29.353s-64.08-10.425-86.794-29.353\n\t\tc-3.542-2.95-8.804-2.473-11.757,1.069c-2.952,3.542-2.473,8.805,1.069,11.757c25.709,21.425,60.328,33.223,97.483,33.223\n\t\ts71.774-11.798,97.483-33.222c3.542-2.952,4.02-8.215,1.069-11.757C351.599,368.313,346.335,367.835,342.794,370.786z\"/>\n</g>\n<path style=\"fill:#ECE5DD;\" d=\"M264.348,178.087v-71.896l18.201-6.067c4.867,17.653,21.055,30.659,40.234,30.659\n\tc23.016,0,41.739-18.724,41.739-41.739s-18.724-41.739-41.739-41.739c-20.919,0-38.289,15.469-41.281,35.57l-28.142,9.381\n\tc-3.409,1.136-5.708,4.326-5.708,7.919v77.913H264.348z M322.783,64c13.81,0,25.043,11.234,25.043,25.043\n\ts-11.234,25.043-25.043,25.043s-25.043-11.234-25.043-25.043S308.973,64,322.783,64z\"/>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n</svg>\n",
+            "modified": "20171225113756838",
+            "tags": "$:/tags/image"
+        },
+        "$:/core/images/twitter": {
+            "created": "20171225113352669",
+            "title": "$:/core/images/twitter",
+            "text": "<svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 112.197 112.197\"  class=\"tc-image-twitter tc-image-button\" width=\"18pt\" height=\"18pt\" xml:space=\"preserve\">\n<g>\n\t<circle style=\"fill:#55ACEE;\" cx=\"56.099\" cy=\"56.098\" r=\"56.098\"/>\n\t<g>\n\t\t<path style=\"fill:#F1F2F2;\" d=\"M90.461,40.316c-2.404,1.066-4.99,1.787-7.702,2.109c2.769-1.659,4.894-4.284,5.897-7.417\n\t\t\tc-2.591,1.537-5.462,2.652-8.515,3.253c-2.446-2.605-5.931-4.233-9.79-4.233c-7.404,0-13.409,6.005-13.409,13.409\n\t\t\tc0,1.051,0.119,2.074,0.349,3.056c-11.144-0.559-21.025-5.897-27.639-14.012c-1.154,1.98-1.816,4.285-1.816,6.742\n\t\t\tc0,4.651,2.369,8.757,5.965,11.161c-2.197-0.069-4.266-0.672-6.073-1.679c-0.001,0.057-0.001,0.114-0.001,0.17\n\t\t\tc0,6.497,4.624,11.916,10.757,13.147c-1.124,0.308-2.311,0.471-3.532,0.471c-0.866,0-1.705-0.083-2.523-0.239\n\t\t\tc1.706,5.326,6.657,9.203,12.526,9.312c-4.59,3.597-10.371,5.74-16.655,5.74c-1.08,0-2.15-0.063-3.197-0.188\n\t\t\tc5.931,3.806,12.981,6.025,20.553,6.025c24.664,0,38.152-20.432,38.152-38.153c0-0.581-0.013-1.16-0.039-1.734\n\t\t\tC86.391,45.366,88.664,43.005,90.461,40.316L90.461,40.316z\"/>\n\t</g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n</svg>\n",
+            "modified": "20171225113620982",
+            "tags": "$:/tags/image"
         }
     }
 }
