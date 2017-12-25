@@ -4,7 +4,7 @@ created: 20171218120219486
 description: Nuun: Holy Qur'an Tafseer Wiki template
 modified: 20171225032602502
 plugin-type: plugin
-revision: 1
+revision: 0
 title: $:/plugins/tesseract/nuun
 type: application/json
 version: 0.4.2
