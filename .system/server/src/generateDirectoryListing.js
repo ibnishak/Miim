@@ -13,25 +13,13 @@ exports.generateDirectoryListing = function (directory) {
             sortBySelector(e => ((e.type === 'folder' ? '0-' : '1-') + e.name.toLocaleLowerCase()))
         ).map((entry, index) => {
             const isFile = ['category', 'folder', 'datafolder', 'error', 'other'].indexOf(entry.type) === -1;
-            return `
-<tr class="row ${(index + 1) % 2 ? 'odd' : 'even'} ${entry.type}">
-    <td>
-        <span class="icon">
-            <img style="width:16px;" src="/icons/${(isFile ? 'files/' : '') + entry.type}.png"/>
-        </span>
-        <span class="name">
-            <a href="${encodeURI(entry.path)}">${entry.name}</a>
-        </span>
-    </td>
-    <td class="type"><span>${entry.type}</span></td>
-    <td class="size"><span>${entry.size}</span></td>
-</tr>`
+            return 
         }).join("")
     }
     const pathArr = directory.path.split('/').filter(a => a);
     const parentJoin = ["", pathArr.slice(0, pathArr.length - 1).join('/'), ""].join('/');
     const parentPath = parentJoin === '//' ? '/' : parentJoin;
-    const name = pathArr.slice(pathArr.length - 1);
+    const name = "Nuun"
     return `
     <!DOCTYPE html>
 <html>
@@ -41,24 +29,7 @@ exports.generateDirectoryListing = function (directory) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<p><a href="${parentPath}">Directory: ${parentPath}</a></p>
-
-<table>
-  <caption>${name}</caption>
-  <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Type</th>
-      <th scope="col">Size</th>
-    </tr>
-  </thead>
- <tbody>
-${listEntries(directory.entries)}
-  </tbody>
-</table>
-
-<p><a href="${fixPutSaver}">Fix Put Saver</a>  Bookmarklet</p>
-<p style="color:grey; font-family:sans-serif; font-size:0.8em;">TiddlyServer v${info.version}</p>
+     <p> Go to <a href="http://127.0.0.1:8888/index">Index page</a></p>
 </body>
 </html>
 `
