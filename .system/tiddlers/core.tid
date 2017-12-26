@@ -7,10 +7,10 @@ list: readme
 modified: 20171225114757138
 plugin-priority: 0
 plugin-type: plugin
-revision: 2
+revision: 0
 title: $:/core
 type: application/json
-version: 5.1.15-Nuun
+version: 5.1.16-Nuun
 
 {
     "tiddlers": {
@@ -7265,11 +7265,11 @@ version: 5.1.15-Nuun
             "text": "\\whitespace trim\n<$button message=\"tm-permaview\" tooltip={{$:/language/Buttons/Permaview/Hint}} aria-label={{$:/language/Buttons/Permaview/Caption}} class=<<tv-config-toolbar-class>>>\n<$list filter=\"[<tv-config-toolbar-icons>prefix[yes]]\">\n{{$:/core/images/permaview-button}}\n</$list>\n<$list filter=\"[<tv-config-toolbar-text>prefix[yes]]\">\n<span class=\"tc-btn-text\">\n<$text text=\" \"/>\n<$text text={{$:/language/Buttons/Permaview/Caption}}/>\n</span>\n</$list>\n</$button>"
         },
         "$:/temp/advancedsearch": {
-            "text": "encoder",
+            "text": "tiddler stylesheet nuun",
             "bag": "default",
-            "revision": "0",
+            "revision": "24",
             "title": "$:/temp/advancedsearch",
-            "modified": "20171225082921229",
+            "modified": "20171226014200207",
             "created": "20171218123607165"
         },
         "$:/snippets/allfields": {
@@ -8116,16 +8116,31 @@ version: 5.1.15-Nuun
             "text": "Nuun"
         },
         "$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize": {
+            "text": "13px",
+            "bag": "default",
+            "revision": "0",
+            "type": "application/x-tiddler",
             "title": "$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize",
-            "text": "15px"
+            "modified": "20171213093900678",
+            "created": "20171213093900677"
         },
         "$:/themes/tiddlywiki/vanilla/metrics/fontsize": {
+            "text": "13px",
+            "bag": "default",
+            "revision": "0",
+            "type": "application/x-tiddler",
             "title": "$:/themes/tiddlywiki/vanilla/metrics/fontsize",
-            "text": "14px"
+            "modified": "20171213093904817",
+            "created": "20171213093904817"
         },
         "$:/themes/tiddlywiki/vanilla/metrics/storyright": {
+            "text": "80%",
+            "bag": "default",
+            "revision": "0",
+            "type": "application/x-tiddler",
             "title": "$:/themes/tiddlywiki/vanilla/metrics/storyright",
-            "text": "770px"
+            "modified": "20171216100748231",
+            "created": "20171216100747238"
         },
         "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search": {
             "title": "$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/advanced-search",
@@ -8177,6 +8192,25 @@ version: 5.1.15-Nuun
             "text": "<svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 112.197 112.197\"  class=\"tc-image-twitter tc-image-button\" width=\"18pt\" height=\"18pt\" xml:space=\"preserve\">\n<g>\n\t<circle style=\"fill:#55ACEE;\" cx=\"56.099\" cy=\"56.098\" r=\"56.098\"/>\n\t<g>\n\t\t<path style=\"fill:#F1F2F2;\" d=\"M90.461,40.316c-2.404,1.066-4.99,1.787-7.702,2.109c2.769-1.659,4.894-4.284,5.897-7.417\n\t\t\tc-2.591,1.537-5.462,2.652-8.515,3.253c-2.446-2.605-5.931-4.233-9.79-4.233c-7.404,0-13.409,6.005-13.409,13.409\n\t\t\tc0,1.051,0.119,2.074,0.349,3.056c-11.144-0.559-21.025-5.897-27.639-14.012c-1.154,1.98-1.816,4.285-1.816,6.742\n\t\t\tc0,4.651,2.369,8.757,5.965,11.161c-2.197-0.069-4.266-0.672-6.073-1.679c-0.001,0.057-0.001,0.114-0.001,0.17\n\t\t\tc0,6.497,4.624,11.916,10.757,13.147c-1.124,0.308-2.311,0.471-3.532,0.471c-0.866,0-1.705-0.083-2.523-0.239\n\t\t\tc1.706,5.326,6.657,9.203,12.526,9.312c-4.59,3.597-10.371,5.74-16.655,5.74c-1.08,0-2.15-0.063-3.197-0.188\n\t\t\tc5.931,3.806,12.981,6.025,20.553,6.025c24.664,0,38.152-20.432,38.152-38.153c0-0.581-0.013-1.16-0.039-1.734\n\t\t\tC86.391,45.366,88.664,43.005,90.461,40.316L90.461,40.316z\"/>\n\t</g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n<g>\n</g>\n</svg>\n",
             "modified": "20171225113620982",
             "tags": "$:/tags/image"
+        },
+        "$:/language/ThemeTweaks/Metrics/FontColor": {
+            "text": "Font Color",
+            "bag": "default",
+            "revision": "1",
+            "title": "$:/language/ThemeTweaks/Metrics/FontColor",
+            "tags": "",
+            "modified": "20171226020540801",
+            "created": "20171226020435665"
+        },
+        "$:/themes/tiddlywiki/vanilla/themetweaks": {
+            "text": "\\define lingo-base() $:/language/ThemeTweaks/\n\n\n\n<<lingo ThemeTweaks/Hint>>\n\n\n\n! <<lingo Settings>>\n\n|<$link to=\"$:/themes/tiddlywiki/vanilla/settings/fontfamily\"><<lingo Settings/FontFamily>></$link> |<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/settings/fontfamily\" default=\"\" tag=\"input\"/> | |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/settings/codefontfamily\"><<lingo Settings/CodeFontFamily>></$link> |<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/settings/codefontfamily\" default=\"\" tag=\"input\"/> | |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/settings/editorfontfamily\"><<lingo Settings/EditorFontFamily>></$link> |<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/settings/editorfontfamily\" default=\"\" tag=\"input\"/> | |\n\n\n! <<lingo Metrics>>\n\n|<$link to=\"$:/nuun/config/bodyfontsize\"><<lingo Metrics/FontSize>></$link> |<$edit-text tiddler=\"$:/nuun/config/bodyfontsize\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/nuun/config/bodycolor\"><<lingo Metrics/FontColor>></$link> |<$edit-text tiddler=\"$:/nuun/config/bodycolor\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/lineheight\"><<lingo Metrics/LineHeight>></$link> |<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/lineheight\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize\"><<lingo Metrics/BodyFontSize>></$link> |<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/bodyfontsize\" default=\"\" tag=\"input\"/> |\n|<$link to=\"$:/themes/tiddlywiki/vanilla/metrics/bodylineheight\"><<lingo Metrics/BodyLineHeight>></$link> |<$edit-text tiddler=\"$:/themes/tiddlywiki/vanilla/metrics/bodylineheight\" default=\"\" tag=\"input\"/> |\n",
+            "bag": "default",
+            "revision": "1",
+            "title": "$:/themes/tiddlywiki/vanilla/themetweaks",
+            "tags": "$:/tags/ControlPanel/Appearance",
+            "modified": "20171226020733527",
+            "created": "20171226015014066",
+            "caption": "{{$:/language/ThemeTweaks/ThemeTweaks}}"
         }
     }
 }
