@@ -1,5 +1,5 @@
 *.todo
-*StoryList.tid
-*.log
-*/state/*
-*/visibility/*
+**/StoryList.tid
+**/*.log
+**/state/
+**/visibility/
