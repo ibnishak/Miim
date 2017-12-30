@@ -1,0 +1,16 @@
+{
+    "directories": [
+        {
+            "path": "../../data/",
+            "isTiddlerFile": true
+        },
+        {
+            "path": "../../notes/",
+            "isTiddlerFile": true
+        },
+        {
+            "path": "../../bookmarks/",
+            "isTiddlerFile": true
+        }
+    ]
+}
